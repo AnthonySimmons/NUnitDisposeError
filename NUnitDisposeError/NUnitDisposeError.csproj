@@ -7,8 +7,8 @@
     <ProjectGuid>{ECA238EA-AB2B-44B2-9906-D08965209488}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NUnitTearDownBug</RootNamespace>
-    <AssemblyName>NUnitTearDownBug</AssemblyName>
+    <RootNamespace>NUnitDisposeError</RootNamespace>
+    <AssemblyName>NUnitDisposeError</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

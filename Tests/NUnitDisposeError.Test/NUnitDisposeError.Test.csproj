@@ -8,8 +8,8 @@
     <ProjectGuid>{431D7C01-7259-4EB4-883A-D560690E0143}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NUnitTearDownBug.Test</RootNamespace>
-    <AssemblyName>NUnitTearDownBug.Test</AssemblyName>
+    <RootNamespace>NUnitDisposeError.Test</RootNamespace>
+    <AssemblyName>NUnitDisposeError.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NUnitTearDownBugTest.cs" />
+    <Compile Include="NUnitDisposeErrorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\NUnitTearDownBug\NUnitTearDownBug.csproj">
+    <ProjectReference Include="..\..\NUnitDisposeError\NUnitDisposeError.csproj">
       <Project>{eca238ea-ab2b-44b2-9906-d08965209488}</Project>
-      <Name>NUnitTearDownBug</Name>
+      <Name>NUnitDisposeError</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="1" result="Failed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-09-02 21:26:43Z" end-time="2018-09-02 21:26:45Z" duration="1.453046">
-  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe  Tests\NUnitTearDownBug.Test\bin\Release\NUnitTearDownBug.Test.dll]]></command-line>
-  <test-suite type="Assembly" id="0-1003" name="NUnitTearDownBug.Test.dll" fullname="C:\workspace\NUnitTest\NUnitTearDownBug\Tests\NUnitTearDownBug.Test\bin\Release\NUnitTearDownBug.Test.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.162148" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+<test-run id="2" testcasecount="1" result="Failed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-09-02 21:35:31Z" end-time="2018-09-02 21:35:33Z" duration="1.490633">
+  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.8.0\tools\nunit3-console.exe  Tests\NUnitDisposeError.Test\bin\Release\NUnitDisposeError.Test.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="NUnitDisposeError.Test.dll" fullname="C:\workspace\NUnitTest\NUnitTearDownBug\Tests\NUnitDisposeError.Test\bin\Release\NUnitDisposeError.Test.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.171302" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
     <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\workspace\NUnitTest\NUnitTearDownBug" machine-name="IDEAPAD" user="antho" user-domain="IDEAPAD" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
@@ -13,29 +13,29 @@
       <setting name="NumberOfTestWorkers" value="4" />
     </settings>
     <properties>
-      <property name="_PID" value="13944" />
+      <property name="_PID" value="4116" />
       <property name="_APPDOMAIN" value="domain-" />
     </properties>
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="TestSuite" id="0-1004" name="NUnitTearDownBug" fullname="NUnitTearDownBug" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.112599" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <test-suite type="TestSuite" id="0-1004" name="NUnitDisposeError" fullname="NUnitDisposeError" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.124300" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
       <failure>
         <message><![CDATA[One or more child tests had errors]]></message>
       </failure>
-      <test-suite type="TestSuite" id="0-1005" name="Test" fullname="NUnitTearDownBug.Test" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.111681" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="0-1005" name="Test" fullname="NUnitDisposeError.Test" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.123108" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
         <failure>
           <message><![CDATA[One or more child tests had errors]]></message>
         </failure>
-        <test-suite type="TestFixture" id="0-1000" name="NUnitTearDownBugTest" fullname="NUnitTearDownBug.Test.NUnitTearDownBugTest" classname="NUnitTearDownBug.Test.NUnitTearDownBugTest" runstate="Runnable" testcasecount="1" result="Failed" label="Error" site="TearDown" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.103057" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestFixture" id="0-1000" name="NUnitDisposeErrorTest" fullname="NUnitDisposeError.Test.NUnitDisposeErrorTest" classname="NUnitDisposeError.Test.NUnitDisposeErrorTest" runstate="Runnable" testcasecount="1" result="Failed" label="Error" site="TearDown" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.116085" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
           <failure>
             <message><![CDATA[TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
             <stack-trace><![CDATA[--TearDown
-   at NUnitTearDownBug.Test.NUnitTearDownBugTest.Dispose() in C:\workspace\NUnitTest\NUnitTearDownBug\Tests\NUnitTearDownBug.Test\NUnitTearDownBugTest.cs:line 26
+   at NUnitDisposeError.Test.NUnitDisposeErrorTest.Dispose() in C:\workspace\NUnitTest\NUnitTearDownBug\Tests\NUnitDisposeError.Test\NUnitDisposeErrorTest.cs:line 26
    at NUnit.Framework.Internal.Commands.DisposeFixtureCommand.<>c.<.ctor>b__0_0(TestExecutionContext context) in C:\src\nunit\nunit\src\NUnitFramework\framework\Internal\Commands\DisposeFixtureCommand.cs:line 52]]></stack-trace>
           </failure>
-          <test-suite type="ParameterizedMethod" id="0-1002" name="Add_ShouldReturnExpectedValue" fullname="NUnitTearDownBug.Test.NUnitTearDownBugTest.Add_ShouldReturnExpectedValue" classname="NUnitTearDownBug.Test.NUnitTearDownBugTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.065579" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
-            <test-case id="0-1001" name="Add_ShouldReturnExpectedValue(3,5,8)" fullname="NUnitTearDownBug.Test.NUnitTearDownBugTest.Add_ShouldReturnExpectedValue(3,5,8)" methodname="Add_ShouldReturnExpectedValue" classname="NUnitTearDownBug.Test.NUnitTearDownBugTest" runstate="Runnable" seed="936851741" result="Passed" start-time="2018-09-02 21:26:45Z" end-time="2018-09-02 21:26:45Z" duration="0.051424" asserts="1" />
+          <test-suite type="ParameterizedMethod" id="0-1002" name="Add_ShouldReturnExpectedValue" fullname="NUnitDisposeError.Test.NUnitDisposeErrorTest.Add_ShouldReturnExpectedValue" classname="NUnitDisposeError.Test.NUnitDisposeErrorTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.078699" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="0-1001" name="Add_ShouldReturnExpectedValue(3,5,8)" fullname="NUnitDisposeError.Test.NUnitDisposeErrorTest.Add_ShouldReturnExpectedValue(3,5,8)" methodname="Add_ShouldReturnExpectedValue" classname="NUnitDisposeError.Test.NUnitDisposeErrorTest" runstate="Runnable" seed="911494446" result="Passed" start-time="2018-09-02 21:35:33Z" end-time="2018-09-02 21:35:33Z" duration="0.063805" asserts="1" />
           </test-suite>
         </test-suite>
       </test-suite>

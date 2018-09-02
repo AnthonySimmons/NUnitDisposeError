@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NUnitTearDownBug")]
+[assembly: AssemblyTitle("NUnitDisposeError.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NUnitTearDownBug")]
+[assembly: AssemblyProduct("NUnitDisposeError.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("eca238ea-ab2b-44b2-9906-d08965209488")]
+[assembly: Guid("431d7c01-7259-4eb4-883a-d560690e0143")]
 
 // Version information for an assembly consists of the following four values:
 //

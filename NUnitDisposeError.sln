@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTearDownBug", "NUnitTearDownBug\NUnitTearDownBug.csproj", "{ECA238EA-AB2B-44B2-9906-D08965209488}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitDisposeError", "NUnitDisposeError\NUnitDisposeError.csproj", "{ECA238EA-AB2B-44B2-9906-D08965209488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTearDownBug.Test", "Tests\NUnitTearDownBug.Test\NUnitTearDownBug.Test.csproj", "{431D7C01-7259-4EB4-883A-D560690E0143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitDisposeError.Test", "Tests\NUnitDisposeError.Test\NUnitDisposeError.Test.csproj", "{431D7C01-7259-4EB4-883A-D560690E0143}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

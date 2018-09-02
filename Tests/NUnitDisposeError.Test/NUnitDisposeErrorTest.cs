@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace NUnitTearDownBug.Test
+namespace NUnitDisposeError.Test
 {
     [TestFixture]
-    public class NUnitTearDownBugTest : IDisposable
+    public class NUnitDisposeErrorTest : IDisposable
     {
         private Adder mSut;
 
